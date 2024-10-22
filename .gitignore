@@ -1,0 +1,26 @@
+# Python 相關
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虛擬環境
+venv/
+env/
+ENV/
+
+# IDE 相關
+.vscode/
+.idea/
+
+# 操作系統相關
+.DS_Store
+Thumbs.db
+
+# 專案特定
+mod/*.py
+!mod/__init__.py
+
+# 打包相關
+dist/
+build/
+*.spec
