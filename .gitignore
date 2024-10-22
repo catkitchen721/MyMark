@@ -16,10 +16,6 @@ ENV/
 .DS_Store
 Thumbs.db
 
-# 專案特定
-mod/*.py
-!mod/__init__.py
-
 # 打包相關
 dist/
 build/
